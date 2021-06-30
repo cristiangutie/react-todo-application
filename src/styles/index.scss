@@ -11,3 +11,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body,html {
+    height: 100%;
+    width: 100%;
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+    font-family: 'Comfortaa', cursive;
+}
+
+.title {
+    font-family: 'Poiret One', cursive;
+}
+
+.footer-text {
+    font-size: small;
+}
+
+.stack {
+    background: #fff;
+    box-shadow:
+      /* The top layer shadow */
+      0 1px 1px rgba(0,0,0,0.15),
+      /* The second layer */
+      0 10px 0 -5px #eee,
+      /* The second layer shadow */
+      0 10px 1px -4px rgba(0,0,0,0.15),
+       /* The third layer */
+      0 20px 0 -10px #eee,
+      /* The third layer shadow */
+      0 20px 1px -9px rgba(0,0,0,0.15);
+      /* Padding for demo purposes */
+      padding: 30px;
+}
